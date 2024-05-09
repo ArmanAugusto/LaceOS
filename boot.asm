@@ -14,9 +14,7 @@ print:
     cmp al, 0
     je .done
     call print_char
-    jmp .loop
-.done:
-    ret
+8    ret
 
 print_char:
     mov ah, 0eh
